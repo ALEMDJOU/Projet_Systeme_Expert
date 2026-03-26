@@ -1,2 +1,15 @@
-# Dépendances pour le Projet Système Expert (Jour 1)
+# Dépendances pour le Projet Système Expert - Maintenance d'un Ordinateur
+# D'après la feuille de route (Jour 1 à Jour 7)
+
+# --- Tests & Validation (Jour 5) ---
+# Tests unitaires pour le moteur d'inférence
 pytest==8.0.0
+# Plugin pour mesurer la couverture de code (taux de couverture)
+pytest-cov==4.1.0
+
+# --- Base de Connaissances (Jour 2) ---
+# Pour lire et écrire les règles si le format choisi est YAML (mentionné dans les conseils)
+PyYAML==6.0.1
+
+# L'interface Tkinter et le module JSON font partie de la bibliothèque standard Python
+# et n'ont pas besoin d'être installés via pip.
